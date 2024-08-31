@@ -1,2 +1,2 @@
 
-print("\tPython")
+print("Languages:\npython\nC\nJavaScript")
