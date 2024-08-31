@@ -1,6 +1,10 @@
 
 
 # Avoiding Index Errors When Working with Lists
-cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars = ['audi', 'bmw', 'subaru', 'toyota']
 
-print(len(cars))
+for car in cars:
+    if car == "bnw":
+        print(car.upper())
+    else:
+        print(car.title())
