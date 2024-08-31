@@ -1,4 +1,4 @@
-# Looping Through a Slice
+# Copying a List
 
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
 
