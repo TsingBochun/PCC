@@ -1,9 +1,6 @@
 
 
-# Printing a List in Reverse Order
+# Finding the Length of a List
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 
-print(cars)
-
-cars.reverse()
-print(cars)
+print(len(cars))
