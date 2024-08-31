@@ -1,8 +1,9 @@
 
-motorcycles = []
+# Inserting Elements into a List
 
-motorcycles.append("honda")
-motorcycles.append("yamaha")
-motorcycles.append("suzuki")
+motorcycles = ['honda', 'yamaha', 'suzuki']
 
+motorcycles.insert(0, 'ducati')
 print(motorcycles)
+
+
