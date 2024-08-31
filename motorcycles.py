@@ -1,13 +1,10 @@
 
 # Removing an Item by Value
 
-motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
-print(motorcycles)
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles[-1])
 
-too_expensive = 'ducati'
-motorcycles.remove(too_expensive)
-print(motorcycles)
-print(too_expensive.title() + " is too expensive for me.")
+
 
 
 
