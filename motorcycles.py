@@ -1,14 +1,11 @@
 
-# Removing an Item Using the pop() Method
+# Popping Items from any Position in a List
 
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
-# del motorcycles[0]
-# del motorcycles[1]
-# print(motorcycles)
 
-last_owned = motorcycles.pop()
+last_owned = motorcycles.pop(0)
 print("The last motorcycle I owned was a " + last_owned.title())
 
 
