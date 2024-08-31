@@ -1,12 +1,13 @@
 
-# Popping Items from any Position in a List
+# Removing an Item by Value
 
-motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+motorcycles.remove('ducati')
 print(motorcycles)
 
 
-last_owned = motorcycles.pop(0)
-print("The last motorcycle I owned was a " + last_owned.title())
 
 
 
