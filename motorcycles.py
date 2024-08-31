@@ -1,9 +1,10 @@
 
-# Inserting Elements into a List
+# Removing Elements from a List
 
 motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
 
-motorcycles.insert(0, 'ducati')
+del motorcycles[0]
 print(motorcycles)
 
 
